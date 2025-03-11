@@ -1,0 +1,27 @@
+# Core requirements
+scapy>=2.4.5      # Packet manipulation library
+pyric>=0.1.6.3    # Wireless NIC configuration library
+netifaces>=0.11.0 # Network interface information
+pyroute2>=0.6.7   # Netlink socket communication
+tabulate>=0.8.9   # Formatted table output
+cryptography>=36.0.0  # Cryptographic functions
+
+# Machine learning dependencies
+numpy>=1.20.0     # Numerical computing
+pandas>=1.3.0     # Data analysis tools
+scikit-learn>=1.0.0  # Machine learning algorithms
+
+# Deep learning (optional)
+torch>=1.10.0; sys_platform != "darwin" or platform_machine != "arm64"  # Neural networks
+
+# Visualization (optional)
+matplotlib>=3.5.0  # Plotting library
+seaborn>=0.11.2    # Statistical data visualization
+
+# Development tools
+pytest>=7.0.0      # Testing framework
+pytest-cov>=2.12.0 # Test coverage
+mypy>=0.910        # Static type checking
+black>=21.12b0     # Code formatting
+isort>=5.10.0      # Import sorting
+pylint>=2.12.0     # Code analysis
